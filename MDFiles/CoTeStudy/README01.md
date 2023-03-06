@@ -1,7 +1,7 @@
 # 01. 2차원으로 만들기
 
 * 문제 위치 : 프로그래머스 [ [https://school.programmers.co.kr/learn/courses/30/lessons/120842](https://school.programmers.co.kr/learn/courses/30/lessons/120842) ]
-* 자바 소스 파일 : [CoTeStudy/src/Study01.java](../CoTeStudy/src/Study01.java)
+* 자바 소스 파일 : [CoTeStudy/src/Study01.java](../../CoTeStudy/src/Study01.java)
 
 
 ## **문제 설명**
