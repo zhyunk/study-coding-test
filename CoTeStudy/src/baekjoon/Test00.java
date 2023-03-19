@@ -4,15 +4,8 @@ import java.io.IOException;
 
 public class Test00 {
     public Test00(int launcher) throws IOException {
-        switch (launcher) {
-            case 1:
-                this.main();
-                break;
-            case 2:
-            default:
-                this.test();
-                break;
-        }
+        if (launcher == 1)  this.main();
+        else                this.test();
     }
 
     public void main() throws IOException {

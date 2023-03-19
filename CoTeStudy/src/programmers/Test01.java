@@ -5,15 +5,11 @@ import utils.MyPrint;
 
 public class Test01 {
     public Test01(ArrayList list) {
-        if ((int)list.get(0) == 1) {
-            /** list.get(0) = 1 (solution: 제출용) */
-            this.solution( (int[])list.get(1), (int)list.get(2) );
-        } else {
-            /** list.get(0) = 2 (test: 실행 확인 용 테스트) */
-            this.test( (int[])list.get(1), (int)list.get(2) );
-        }
+        if ((int)list.get(0) == 1)  this.solution( (int[])list.get(1), (int)list.get(2) );
+        else                            this.test( (int[])list.get(1), (int)list.get(2) );
     }
 
+    /** list.get(0) = 1 (solution: 제출용) */
     public int[][] solution(int[] num_list, int n) {
         int[][] answer = new int[num_list.length / n][n];
 
@@ -22,6 +18,8 @@ public class Test01 {
         }
         return answer;
     }
+
+    /** list.get(0) = 2 (test: 실행 확인 용 테스트) */
     public void test(int[] num_list, int n) {
         int[][] answer = new int[num_list.length / n][n];
 
