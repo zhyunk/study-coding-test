@@ -3,13 +3,6 @@ package baekjoon;
 import java.io.IOException;
 
 public class Test00 {
-    public void main() throws IOException {
-
-    }
-    public void test() {
-
-    }
-
     public Test00(int launcher) throws IOException {
         switch (launcher) {
             case 1:
@@ -20,5 +13,12 @@ public class Test00 {
                 this.test();
                 break;
         }
+    }
+
+    public void main() throws IOException {
+
+    }
+    public void test() {
+
     }
 }

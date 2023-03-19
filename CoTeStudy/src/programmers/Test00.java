@@ -3,15 +3,6 @@ package programmers;
 import java.util.ArrayList;
 
 public class Test00 {
-    public void solution(int[] arr, int divisor) {
-        
-    }
-
-    public void test(int[] arr, int divisor) {
-
-    }
-
-
     public Test00(ArrayList list) {
         if ((int)list.get(0) == 1) {
             /** list.get(0) = 1 (solution: 제출용) */
@@ -20,5 +11,13 @@ public class Test00 {
             /** list.get(0) = 2 (test: 실행 확인 용 테스트) */
             this.test( (int[])list.get(1), (int)list.get(2) );
         }
+    }
+
+    public void solution(int[] arr, int divisor) {
+        
+    }
+
+    public void test(int[] arr, int divisor) {
+
     }
 }
