@@ -100,7 +100,7 @@ for (int[] arg : commands) {
 
 ## 다른 사람 코드
 
-출처 : 프로그래머스 스쿨 - [다른사람 풀이 첫번째]([https://school.programmers.co.kr/learn/courses/30/lessons/42748/solution_groups?language=java](https://school.programmers.co.kr/learn/courses/30/lessons/42748/solution_groups?language=java))
+출처 : 프로그래머스 스쿨 -  [다른사람 풀이 첫번째](https://school.programmers.co.kr/learn/courses/30/lessons/42748/solution_groups?language=java)  
 
 ```java
 public int[] test(int[] array, int[][] commands) {
