@@ -1,3 +1,6 @@
+* [프로그래머스](https://school.programmers.co.kr/learn/courses/30/lessons/42748)
+* [자바 소스](../../../CoTeStudy/src/programmers/Test02.java)
+
 ## K번째수
 
 ### **문제 설명**
