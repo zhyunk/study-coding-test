@@ -1,16 +1,22 @@
 package programmers;
 
+import utils.MyPrint;
+
 import java.util.ArrayList;
 
 public class Test00 {
     /** list.get(0) = 1 (solution: 제출용) */
-    public void solution(int[] arr, int divisor) {
-        
+    public int[] solution(int[] arr, int divisor) {
+
+
+        return null;
     }
 
     /** list.get(0) = 2 (test: 실행 확인 용 테스트) */
     public void test(int[] arr, int divisor) {
 
+
+        MyPrint.arr(null);
     }
 
     public Test00(int launcher) {
