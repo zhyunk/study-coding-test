@@ -14,39 +14,22 @@ public class Main {
 
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....
-         *  luncture     =  1: main     2 : test
-         *  argss (프로그래머스 전용) = 사용될 매개변수 순서대로 담음  */
+         *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 2;
+        int filenumber  = 1;
         int launcher    = 2;
 
-        ArrayList argss = new ArrayList();
-        argss.add(launcher);
-
-        /** 이하 프로그래머스로 전달할 매개변수들 */
-        argss.add(new int[]{1, 5, 2, 6, 3, 7, 4});
-        argss.add(new int[][]{{2, 5, 3}, {4, 4, 1}, {1, 7, 3}});
-//        argss.add(new String[]{"abc", "a"});
-//        argss.add(new String[][]{{"abc", "a"}, {"abc", "b"}});
-//        argss.add(2);
-
-        printLectucePractice(site, filenumber, argss);
+        printLectucePractice(site, filenumber, launcher);
     }
 
 
-    private static void printLectucePractice(int site, int fileNumber , ArrayList args) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
+    private static void printLectucePractice(int site, int fileNumber , int launcher) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         String str = "";
 
-            switch (site) {
-                case 'b':
-                        str = String.format("baekjoon.Test%02d", fileNumber);
-                        Class.forName(str).getDeclaredConstructor(int.class).newInstance(args.get(0));
-                    break;
-                case 'p':
-                    str =  String.format("programmers.Test%02d", fileNumber);
-                    Class.forName(str).getDeclaredConstructor(ArrayList.class).newInstance(args);
-                    break;
-            }
+        if (site == 'b')        str = String.format("baekjoon.Test%02d", fileNumber);
+        else if (site == 'p')   str = String.format("programmers.Test%02d", fileNumber);
+
+        Class.forName(str).getDeclaredConstructor(int.class).newInstance(launcher);
     }
 }
