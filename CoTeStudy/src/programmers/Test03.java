@@ -13,16 +13,9 @@ public class Test03 {
     public void test(String[] survey, int[] choices) {
         String answer = "";
 
-        // 지표 2차 배열로 생성
-        // 각 점수가 매겨지는 지표를 char 타입으로 각각 배열에 담음
         char [][] type = {{'R', 'T'}, {'C', 'F'}, {'J', 'M'}, {'A', 'N'}};
-
-        // choices 숫자 별 점수를 배열로 등록
-        // choices가 1~7 이기 때문에 계산하기 편하게 인덱스 1~7까지 해당되는 점수로 저장
         int [] score = {0, 3, 2, 1, 0, 1, 2, 3};
 
-        // 점수 기록할 배열 생성 : HashMap<Character, Integer> point
-        // 점수 기록할 배열 초기화 : 모든 하나의 타입을 key로 하여 value를 0으로 초기화
         HashMap<Character, Integer> point = new HashMap<Character, Integer>();
         for (char[] t : type) {
             point.put(t[0], 0);
@@ -32,17 +25,13 @@ public class Test03 {
         // 점수 기록
         for (int idx = 0; idx < choices.length; idx++){
             if(choices[idx] > 4){
-                // 점수를 별도로 계산할 필요 없이, 위에서 만들어둔 score배열을 바로 가져다가 사용할 수 있음.
-                // 단, 이때 점수를 등록할 타입이 0점이 아닐 수 있기때문에 get한 값과 더해서 저장해줌
-                // 키는 choices가 4보다 크면 뒤쪽 타입에 대한 값이기 때문에 charAt(1)만 있으면 됨
                 point.put(survey[idx].charAt(1), point.get(survey[idx].charAt(1)) + score[choices[idx]]);
             } else {
-                // 키는 choices가 4보다 작으면 앞쪽 타입에 대한 값이기 때문에 charAt(0)만 있으면 됨
                 point.put(survey[idx].charAt(0), point.get(survey[idx].charAt(0)) + score[choices[idx]]);
             }
         }
 
-        // 지표 별 점수 비교 후 유형 기입 point에서 t[1]과 t[2]의 값을 비교해서 더 큰 값을 answer에 기록
+        // 지표 별 점수 비교 후 유형 기입
         for (char[] t : type) {
             answer += (point.get(t[1]) <= point.get(t[0])) ? t[0] : t[1];
         }
