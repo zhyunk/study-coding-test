@@ -9,7 +9,7 @@ import java.util.ArrayList;
               01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
               02. 정렬 [https://school.programmers.co.kr/learn/courses/30/lessons/42748]
               03. 성격 유형 검사하기 [https://school.programmers.co.kr/learn/courses/30/lessons/118666]
-              04.
+              04. 문자열 내 p와 y의 개수 [https://school.programmers.co.kr/learn/courses/30/lessons/12916]
 */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -19,7 +19,7 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 3;
+        int filenumber  = 4;
         int launcher    = 2;
 
         printLectucePractice(site, filenumber, launcher);
