@@ -3,6 +3,7 @@
 
 ### [01. 2차원으로 만들기](./MDFiles/CoTeStudy/programmers/README01.md)
 ### [02. 정렬](./MDFiles/CoTeStudy/programmers/README02.md)
+### [03. 성격 유형 검사하기](./MDFiles/CoTeStudy/programmers/README03.md)
 
 
 -------------------------------------
