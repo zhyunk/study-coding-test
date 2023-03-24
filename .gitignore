@@ -23,4 +23,6 @@
 hs_err_pid*
 
 # MDFiles / txt
+MDFiles/CoTeStudy/*/*.txt
+MDFiles/CoTeStudy/*.txt
 MDFiles/*.txt
