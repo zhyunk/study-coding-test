@@ -6,9 +6,6 @@ public class Test01 {
     public Test01(int launcher) throws IOException {
         if (launcher == 1)  this.main();
         else                this.test();
-
-//        배열 만들기
-//        System.out.println("2 5 1 4 3".replace(" ", ","));
     }
 
     public void main() throws IOException {
@@ -26,9 +23,9 @@ public class Test01 {
         }
 
         // 이 아랫부분이 아직 미궁.........
-        long sum = 0l;
-        for (int i = 0; i < 20; i++) {
-            sum += (1l << i) * ones[i] * (n - ones[i]);
+        long sum = 0L;
+        for (int i = 0; i < ones.length; i++) { // 20은 n의 최대값인 100만이 20자리라서 20
+            sum += (1L << i) * ones[i] * (n - ones[i]);
         }
         System.out.println(sum);
     }
