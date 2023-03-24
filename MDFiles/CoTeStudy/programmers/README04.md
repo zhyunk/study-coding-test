@@ -60,28 +60,20 @@ class Solution {
 ## 1. 사용할 변수 생성 & 초기화
 
 ```java
+boolean[] isPrime = new boolean[n + 1];
+Arrays.fill(isPrime, true);
+int count = 0;
+```
+
+```java
 - 길이가 n+1인 boolean 타입의 배열 isPrime을 만듦
 	-> 배열의 인덱스와 소수인지 판별할 숫자를 알아보기 쉽게 1:1로 매칭하기 위함
 - isPrime 배열을 true로 초기화함 ( 기본값 false임 )
 - 소수를 카운팅 할 변수 : count
 ```
 
-```java
-boolean[] isPrime = new boolean[n + 1];
-Arrays.fill(isPrime, true);
-int count = 0;
-```
 
 ## 2. 2부터 i*i가 n보다 작을 때 까지 반복문 실행
-
-```java
--> 내용 : 소수인지 확인해서 isPrime 배열에 반영
-         -> 소수가 아니면 false 처리
-            -> 소수가 아닌 조건  = 소수*소수 + 0
-                               소수*소수 + 소수
-                               소수*소수 + 소수
-                                ...
-```
 
 ```java
 for (int i = 2; i * i < n; i++) {
@@ -91,6 +83,15 @@ for (int i = 2; i * i < n; i++) {
        }
    }
 }
+```
+
+```java
+-> 내용 : 소수인지 확인해서 isPrime 배열에 반영
+         -> 소수가 아니면 false 처리
+            -> 소수가 아닌 조건  = 소수*소수 + 0
+                               소수*소수 + 소수
+                               소수*소수 + 소수
+                                ...
 ```
 
 이해가 잘 안가서 진행해보았습니다 🤔
