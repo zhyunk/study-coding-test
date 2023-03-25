@@ -4,12 +4,12 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class Test02 {
-    public Test02(int launcher) throws IOException {
+    public Test02(int launcher) {
         if (launcher == 1)  this.main();
         else                this.test();
     }
 
-    public void main() throws IOException {
+    public void main() {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
              BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out))) {
             int cnt = Integer.parseInt(br.readLine());

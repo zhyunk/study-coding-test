@@ -4,12 +4,15 @@ import java.util.ArrayList;
 /**      Index
             site 0 : 백준
               01. 행성 Ｘ３ [https://www.acmicpc.net/problem/2830]
-              02.
+              02. 빠른 A+B [https://www.acmicpc.net/problem/15552]
             site 1 : 프로그래머스
               01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
               02. 정렬 [https://school.programmers.co.kr/learn/courses/30/lessons/42748]
               03. 성격 유형 검사하기 [https://school.programmers.co.kr/learn/courses/30/lessons/118666]
               04. 문자열 내 p와 y의 개수 [https://school.programmers.co.kr/learn/courses/30/lessons/12916]
+              05. 소수 찾기 [https://school.programmers.co.kr/learn/courses/30/lessons/12921]
+              06. 프린터 [https://school.programmers.co.kr/learn/courses/30/lessons/42587]
+              07. 폰켓몬 [https://school.programmers.co.kr/learn/courses/30/lessons/1845]
 */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
