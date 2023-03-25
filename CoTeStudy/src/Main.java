@@ -3,7 +3,7 @@ import java.util.ArrayList;
 
 /**      Index
             site 0 : 백준
-              01.
+              01. 행성 Ｘ３ [https://www.acmicpc.net/problem/2830]
               02.
             site 1 : 프로그래머스
               01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
@@ -19,7 +19,7 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 5;
+        int filenumber  = 7;
         int launcher    = 2;
 
         printLectucePractice(site, filenumber, launcher);
