@@ -13,7 +13,9 @@ import java.util.ArrayList;
               05. 소수 찾기 [https://school.programmers.co.kr/learn/courses/30/lessons/12921]
               06. 프린터 [https://school.programmers.co.kr/learn/courses/30/lessons/42587]
               07. 폰켓몬 [https://school.programmers.co.kr/learn/courses/30/lessons/1845]
-*/
+              08. 이상한 문자 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/12930]
+              09. 3진법 뒤집기 [https://school.programmers.co.kr/learn/courses/30/lessons/68935]
+ */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
 
@@ -22,8 +24,8 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 7;
-        int launcher    = 2;
+        int filenumber  = 9;
+        int launcher    = 1;
 
         printLectucePractice(site, filenumber, launcher);
     }
