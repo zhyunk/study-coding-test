@@ -4,7 +4,13 @@
 ### [01. 2차원으로 만들기](./MDFiles/CoTeStudy/programmers/README01.md)
 ### [02. 정렬](./MDFiles/CoTeStudy/programmers/README02.md)
 ### [03. 성격 유형 검사하기](./MDFiles/CoTeStudy/programmers/README03.md)
-### [04. 소수 판별](./MDFiles/CoTeStudy/programmers/README04.md)
+### [04. 문자열 내 p와 y의 개수](./CoTeStudy/src/programmers/Test04.java)
+### [05. 소수 찾기](./MDFiles/CoTeStudy/programmers/README04.md)
+### [06. 프린터](./CoTeStudy/src/programmers/Test06.java)
+### [07. 폰켓몬](./CoTeStudy/src/programmers/Test07.java)
+### [08. 이상한 문자 만들기](./CoTeStudy/src/programmers/Test08.java)
+### [09. 3진법 뒤집기](./CoTeStudy/src/programmers/Test09.java)
+### [10. 둘만의 암호](./CoTeStudy/src/programmers/Test10.java)
 
 
 -------------------------------------
