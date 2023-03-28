@@ -15,6 +15,7 @@ import java.util.ArrayList;
               07. 폰켓몬 [https://school.programmers.co.kr/learn/courses/30/lessons/1845]
               08. 이상한 문자 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/12930]
               09. 3진법 뒤집기 [https://school.programmers.co.kr/learn/courses/30/lessons/68935]
+              10. 둘만의 암호 [https://school.programmers.co.kr/learn/courses/30/lessons/155652]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -24,7 +25,7 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 9;
+        int filenumber  = 10;
         int launcher    = 1;
 
         printLectucePractice(site, filenumber, launcher);
