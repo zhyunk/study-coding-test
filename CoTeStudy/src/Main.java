@@ -25,7 +25,7 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 10;
+        int filenumber  = 12;
         int launcher    = 1;
 
         printLectucePractice(site, filenumber, launcher);
