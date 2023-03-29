@@ -11,6 +11,9 @@
 ### [08. 이상한 문자 만들기](./CoTeStudy/src/programmers/Test08.java)
 ### [09. 3진법 뒤집기](./CoTeStudy/src/programmers/Test09.java)
 ### [10. 둘만의 암호](./CoTeStudy/src/programmers/Test10.java)
+### [11. 자연수 뒤집어 배열로 만들기](./CoTeStudy/src/programmers/Test11.java)
+### [12. 체육복](./CoTeStudy/src/programmers/Test12.java)
+### [13. 실패율](./CoTeStudy/src/programmers/Test13.java)
 
 
 -------------------------------------
