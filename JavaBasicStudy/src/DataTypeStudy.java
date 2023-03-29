@@ -1,4 +1,5 @@
 import javax.xml.crypto.Data;
+import java.math.BigInteger;
 
 public class DataTypeStudy {
     MyDataType m;
@@ -24,8 +25,11 @@ public class DataTypeStudy {
             for (int l = 10; max > 9; max /= l) {
                 cnt++;
             }
-            System.out.printf("%8s\t=\t%19d\t=\t%d x %d^%d\n", arrStr[i], arrNumsMax[i], (int)(max % 10), 10, cnt);
+            System.out.printf("%8s\t=\t\t%19d\t=\t%d x %d^%d\n", arrStr[i], arrNumsMax[i], (int)(max % 10), 10, cnt);
         }
+        System.out.printf("%8s\t=\t%s\t=\t%s\n", "BigInteger", "2^(Integer.MAX_VALUE-1)", "10^60억");
+        System.out.println();
+        System.out.printf("BigInteger 최대값 출처 : %s", "https://pridiot.tistory.com/62");
     }
     class MyDataType {
         private final byte BYTE_MAX;
