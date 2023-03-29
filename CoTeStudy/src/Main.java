@@ -16,6 +16,9 @@ import java.util.ArrayList;
               08. 이상한 문자 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/12930]
               09. 3진법 뒤집기 [https://school.programmers.co.kr/learn/courses/30/lessons/68935]
               10. 둘만의 암호 [https://school.programmers.co.kr/learn/courses/30/lessons/155652]
+              11.
+              12.
+              13. 실패율 [https://school.programmers.co.kr/learn/courses/30/lessons/42889]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -25,7 +28,7 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 12;
+        int filenumber  = 13;
         int launcher    = 1;
 
         printLectucePractice(site, filenumber, launcher);
