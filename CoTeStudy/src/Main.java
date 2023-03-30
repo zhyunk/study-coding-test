@@ -19,6 +19,7 @@ import java.util.ArrayList;
               11. 자연수 뒤집어 배열로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/12932]
               12. 체육복 [https://school.programmers.co.kr/learn/courses/30/lessons/42862]
               13. 실패율 [https://school.programmers.co.kr/learn/courses/30/lessons/42889]
+              14. 문자열 내 마음대로 정렬하기 [https://school.programmers.co.kr/learn/courses/30/lessons/12915]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -28,7 +29,7 @@ public class Main {
          *  luncture     =  1: main     2 : test         */
 
         int site        = 'p';
-        int filenumber  = 12;
+        int filenumber  = 14;
         int launcher    = 1;
 
         printLectucePractice(site, filenumber, launcher);
