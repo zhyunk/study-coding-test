@@ -29,8 +29,7 @@ public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
 
         /*  site         =  b : 백준     p : 프로그래머스
-         *  fileNumber   =  1 , 2 , 3 , 4 , .....
-         *  luncture     =  1: main     2 : test         */
+         *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'b';
         int filenumber  = 5;
