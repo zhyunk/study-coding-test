@@ -23,6 +23,7 @@ import java.util.ArrayList;
  12. 체육복 [https://school.programmers.co.kr/learn/courses/30/lessons/42862]
  13. 실패율 [https://school.programmers.co.kr/learn/courses/30/lessons/42889]
  14. 문자열 내 마음대로 정렬하기 [https://school.programmers.co.kr/learn/courses/30/lessons/12915]
+ 15. 신고 결과 받기 [https://school.programmers.co.kr/learn/courses/30/lessons/92334]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
