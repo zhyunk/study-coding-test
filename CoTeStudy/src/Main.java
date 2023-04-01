@@ -1,6 +1,5 @@
 import java.lang.reflect.InvocationTargetException;
 import java.util.ArrayList;
-
 /**      Index
  *
     site 0 : 백준
@@ -32,7 +31,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'b';
-        int filenumber  = 5;
+        int filenumber  = 7;
 
         printLectucePractice(site, filenumber);
     }

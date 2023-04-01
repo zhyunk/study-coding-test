@@ -8,19 +8,34 @@ import java.util.StringTokenizer;
 public class Test00 {
     public void main() {
         try (BufferedReader br = new BufferedReader(new InputStreamReader(System.in))) {
-            int N = Integer.parseInt(br.readLine());
-            StringTokenizer sz = new StringTokenizer(br.readLine());
+            int n = Integer.parseInt(br.readLine());
+            StringTokenizer st = new StringTokenizer(br.readLine());
 
         } catch (IOException e) {
 
         }
     }
 
-    public Test00(int launcher) throws IOException {
+    public Test00() {
         this.main();
 
-//        배열 만들기
-//        System.out.println("2 5 1 4 3".replace(" ", ","));
-
+        /**
+         *
+         * 예제 입력
+         *
+         *
+         *
+         * 예제 출력
+         *
+         *
+         * ---
+         *
+         * 예제 입력
+         *
+         *
+         *
+         * 예제 출력
+         *
+         * */
     }
 }
