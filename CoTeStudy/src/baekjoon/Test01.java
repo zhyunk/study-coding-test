@@ -6,9 +6,8 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class Test01 {
-    public Test01(int launcher) throws IOException {
-        if (launcher == 1)  this.main();
-        else                this.test();
+    public Test01() throws IOException {
+        this.main();
     }
 
     public void main() throws IOException {

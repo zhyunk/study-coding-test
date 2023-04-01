@@ -4,9 +4,9 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 public class Test02 {
-    public Test02(int launcher) {
-        if (launcher == 1)  this.main();
-        else                this.test();
+    public Test02() {
+        this.main();
+
     }
 
     public void main() {
