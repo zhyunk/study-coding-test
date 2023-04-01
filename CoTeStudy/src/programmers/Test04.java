@@ -13,14 +13,13 @@ public class Test04 {
         System.out.println(s.replaceAll("[pP]", "").length() == s.replaceAll("[yY]", "").length());
     }
 
-    public Test04(int launcher) {
+    public Test04() {
 
         // 예제1 _ 확인할 결과 값 : true
         String a = "pPoooyY";
 
         try {
-            if (launcher == 1)  this.solution( a );
-            else                    this.test( a );
+            this.solution( a );
         }catch (Exception e) {
             System.out.println("e.getMessage()  : " + e.getMessage());
             System.out.println("e.getCause()    : " + e.getCause());

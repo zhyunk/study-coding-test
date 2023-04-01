@@ -37,14 +37,13 @@ public class Test08 {
         return answer;
     }
 
-    public Test08(int launcher) {
+    public Test08() {
 //        복붙할 배열 만들기
 //        System.out.println("".replace("[", "{").replace("]","}"));
 
         // 예제1 _ 확인할 결과 값 :
         String a = "try asddfsfgdoiuert DFGDF dfGS world ";
 
-        if (launcher == 1)  System.out.println(this.solution( a ));
-        else                    System.out.println(this.test( a ));
+        System.out.println(this.solution( a ));
     }
 }

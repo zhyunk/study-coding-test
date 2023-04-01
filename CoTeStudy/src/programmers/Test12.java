@@ -72,7 +72,7 @@ public class Test12 {
     }
 
 
-    public Test12(int notUse) {
+    public Test12() {
 
         // 예제1 _ 확인할 결과 값 :
         int a = 5;

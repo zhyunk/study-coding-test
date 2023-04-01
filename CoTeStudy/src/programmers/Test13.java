@@ -91,7 +91,7 @@ public class Test13 {
         }
     }
 
-    public Test13(int notUse) {
+    public Test13() {
 //        복붙할 배열 만들기
 //        System.out.println("".replace("[", "{").replace("]","}"));
 

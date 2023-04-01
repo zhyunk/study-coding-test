@@ -57,7 +57,7 @@ public class Test05 {
         return count;
     }
 
-    public Test05(int launcher) {
+    public Test05() {
 //        복붙할 배열 만들기
 //        System.out.println("[100, 95, 2, 4, 5, 6, 18, 33, 948] [[100, 95, 2, 4, 5, 6, 18, 33, 948]]".replace("[", "{").replace("]","}"));
 
@@ -65,8 +65,7 @@ public class Test05 {
         int a = 2;
 
         try {
-            if (launcher == 1)  this.solution( a );
-            else                    this.test( a );
+            this.solution( a );
         }catch (Exception e) {
             System.out.println("e.getMessage()  : " + e.getMessage());
             System.out.println("e.getCause()    : " + e.getCause());

@@ -45,7 +45,7 @@ public class Test06 {
         return answer;
     }
 
-    public Test06(int launcher) {
+    public Test06() {
 
         // 예제1 _ 확인할 결과 값 :
         int[] a = new int[]{2, 1, 3, 2}; // 1
@@ -54,7 +54,6 @@ public class Test06 {
         int b = 2;
         b = 0;
 
-        if (launcher == 1)  System.out.println(this.solution( a, b ));
-        else                    System.out.println(this.test( a, b ));
+        System.out.println(this.solution( a, b ));
     }
 }

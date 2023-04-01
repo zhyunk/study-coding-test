@@ -30,8 +30,8 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'b';
-        int filenumber  = 7;
+        int site        = 'p';
+        int filenumber  = 15;
 
         printLectucePractice(site, filenumber);
     }

@@ -38,7 +38,7 @@ public class Test14 {
         return answer;
     }
 
-    public Test14(int notUse) {
+    public Test14() {
 
         // 예제1 _ 확인할 결과 값 :
         String[] a = {"abce", "abcd", "cdx"};

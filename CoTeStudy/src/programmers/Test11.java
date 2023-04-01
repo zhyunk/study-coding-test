@@ -9,7 +9,7 @@ public class Test11 {
         return answer;
     }
 
-    public Test11(int notUse) {
+    public Test11() {
 //        복붙할 배열 만들기
 //        System.out.println("".replace("[", "{").replace("]","}"));
 

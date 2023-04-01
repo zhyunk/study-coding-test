@@ -10,7 +10,7 @@ public class Test00 {
     }
 
 
-    public Test00(int notUse) {
+    public Test00() {
 //        복붙할 배열 만들기
 //        System.out.println("".replace("[", "{").replace("]","}"));
 

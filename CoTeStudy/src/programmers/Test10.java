@@ -18,7 +18,7 @@ public class Test10 {
         return answer;
     }
 
-    public Test10(int launcher) {
+    public Test10() {
         // 예제1 _ 확인할 결과 값 : happy
         String a = "aukks";
         String b = "wbqd";

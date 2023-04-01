@@ -23,7 +23,7 @@ public class Test02 {
         MyPrint.arr(answer);
     }
 
-    public Test02(int launcher) {
+    public Test02() {
 //        복붙할 배열 만들기
 //        System.out.println("[100, 95, 2, 4, 5, 6, 18, 33, 948] [[100, 95, 2, 4, 5, 6, 18, 33, 948]]".replace("[", "{").replace("]","}"));
 
@@ -31,8 +31,7 @@ public class Test02 {
         int [] a = new int[]{1, 5, 2, 6, 3, 7, 4};
         int[][] b = new int[][] {{2, 5, 3}, {4, 4, 1}, {1, 7, 3}};
         try {
-            if (launcher == 1)  this.solution( a, b );
-            else                    this.test( a, b );
+            this.solution( a, b );
         }catch (Exception e) {
             System.out.println("e.getMessage()  : " + e.getMessage());
             System.out.println("e.getCause()    : " + e.getCause());

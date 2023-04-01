@@ -39,11 +39,10 @@ public class Test09 {
 
         return makeReverseSamJinSu(num, x, base, result);
     }
-    public Test09(int launcher) {
+    public Test09() {
         // 예제1 _ 확인할 결과 값 : 7
         int a = 78413450;
 
-        if (launcher == 1)  System.out.println(this.solution( a ));
-        else                    System.out.println(this.test( a ));
+        System.out.println(this.solution( a ));
     }
 }

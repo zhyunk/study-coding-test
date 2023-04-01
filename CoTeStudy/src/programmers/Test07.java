@@ -20,12 +20,11 @@ public class Test07 {
         return answer;
     }
 
-    public Test07(int launcher) {
+    public Test07() {
 
         // 예제1 _ 확인할 결과 값 :2
         int[] a = {3,1,2,3};
 
-        if (launcher == 1)  System.out.println(this.solution( a ));
-        else                    System.out.println(this.test( a ));
+        System.out.println(this.solution( a ));
     }
 }
