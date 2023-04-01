@@ -12,7 +12,7 @@ public class Test00 {
             StringTokenizer st = new StringTokenizer(br.readLine());
 
         } catch (IOException e) {
-
+            System.out.println("err 😭 " + e.getCause());
         }
     }
 

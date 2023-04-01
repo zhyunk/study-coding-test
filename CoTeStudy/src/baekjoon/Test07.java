@@ -45,7 +45,7 @@ public class Test07 {
                 System.out.println(parent[i]);
             }
         } catch (IOException e) {
-
+            System.out.println("err 😭 " + e.getCause());
         }
     }
 
