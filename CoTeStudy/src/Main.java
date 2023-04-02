@@ -7,6 +7,8 @@ import java.util.ArrayList;
  02. 빠른 A+B [https://www.acmicpc.net/problem/15552]
  05. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
  06. 행성 Ｘ３ [https://www.acmicpc.net/problem/2830]
+ 07. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
+ 08. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
 
     site 1 : 프로그래머스
  01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
@@ -31,8 +33,8 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'p';
-        int filenumber  = 15;
+        int site        = 'b';
+        int filenumber  = 8;
 
         printLectucePractice(site, filenumber);
     }
