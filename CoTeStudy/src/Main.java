@@ -9,6 +9,8 @@ import java.util.ArrayList;
  06. 행성 Ｘ３ [https://www.acmicpc.net/problem/2830]
  07. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
  08. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
+ 09. 동전 0 - 그리디 문제 [https://www.acmicpc.net/problem/11047]
+ 10. 점프 - DP 문제 [https://www.acmicpc.net/problem/1890]
 
     site 1 : 프로그래머스
  01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
@@ -26,6 +28,9 @@ import java.util.ArrayList;
  13. 실패율 [https://school.programmers.co.kr/learn/courses/30/lessons/42889]
  14. 문자열 내 마음대로 정렬하기 [https://school.programmers.co.kr/learn/courses/30/lessons/12915]
  15. 신고 결과 받기 [https://school.programmers.co.kr/learn/courses/30/lessons/92334]
+ 16. 완주하지 못한 선수 [https://school.programmers.co.kr/learn/courses/30/lessons/42576]
+ 17. 전화번호 목록 [https://school.programmers.co.kr/learn/courses/30/lessons/42577]
+ 18. 최소직사각형 [https://school.programmers.co.kr/learn/courses/30/lessons/86491]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -33,12 +38,11 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'b';
-        int filenumber  = 8;
+        int site        = 'p';
+        int filenumber  = 18;
 
         printLectucePractice(site, filenumber);
     }
-
 
     private static void printLectucePractice(int site, int fileNumber) throws ClassNotFoundException, NoSuchMethodException, InvocationTargetException, InstantiationException, IllegalAccessException {
         String str = "";
