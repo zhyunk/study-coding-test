@@ -11,8 +11,8 @@ public class Test00 {
             int n = Integer.parseInt(br.readLine());
             StringTokenizer st = new StringTokenizer(br.readLine());
 
-        } catch (IOException e) {
-            System.out.println("err 😭 " + e.getCause());
+        } catch (Exception e) {
+            System.out.printf("err 😭\n\t%s\n\t%s", e.getMessage(), e);
         }
     }
 

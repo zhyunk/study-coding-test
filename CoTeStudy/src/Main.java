@@ -11,6 +11,9 @@ import java.util.ArrayList;
  08. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
  09. 동전 0 - 그리디 문제 [https://www.acmicpc.net/problem/11047]
  10. 점프 - DP 문제 [https://www.acmicpc.net/problem/1890]
+ 11. 스택 [https://www.acmicpc.net/problem/10828]
+ 12. 큐 [https://www.acmicpc.net/problem/10845]
+ 13. 배열의 합 [https://www.acmicpc.net/problem/2167]
 
     site 1 : 프로그래머스
  01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
@@ -38,8 +41,8 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'p';
-        int filenumber  = 18;
+        int site        = 'b';
+        int filenumber  = 13;
 
         printLectucePractice(site, filenumber);
     }
