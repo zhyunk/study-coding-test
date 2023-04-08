@@ -7,13 +7,17 @@ import java.util.ArrayList;
  02. 빠른 A+B [https://www.acmicpc.net/problem/15552]
  05. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
  06. 행성 Ｘ３ [https://www.acmicpc.net/problem/2830]
- 07. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
- 08. 트리의 부모 찾기 [https://www.acmicpc.net/problem/11725]
+ 07. 트리의 부모 찾기 복습 1 [https://www.acmicpc.net/problem/11725]
+ 08. 트리의 부모 찾기 복습 2 [https://www.acmicpc.net/problem/11725]
  09. 동전 0 - 그리디 문제 [https://www.acmicpc.net/problem/11047]
  10. 점프 - DP 문제 [https://www.acmicpc.net/problem/1890]
  11. 스택 [https://www.acmicpc.net/problem/10828]
  12. 큐 [https://www.acmicpc.net/problem/10845]
  13. 배열의 합 [https://www.acmicpc.net/problem/2167]
+ 14. 스타트링크 [https://www.acmicpc.net/problem/5014]
+ 15. 트리의 부모 찾기 복습 3 [https://www.acmicpc.net/problem/11725]
+ 16. 스타트링크 복습 1 [https://www.acmicpc.net/problem/5014]
+
 
     site 1 : 프로그래머스
  01. 2차원으로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/120842]
@@ -34,7 +38,7 @@ import java.util.ArrayList;
  16. 완주하지 못한 선수 [https://school.programmers.co.kr/learn/courses/30/lessons/42576]
  17. 전화번호 목록 [https://school.programmers.co.kr/learn/courses/30/lessons/42577]
  18. 최소직사각형 [https://school.programmers.co.kr/learn/courses/30/lessons/86491]
- 18. 카드 뭉치 [https://school.programmers.co.kr/learn/courses/30/lessons/159994]
+ 19. 카드 뭉치 [https://school.programmers.co.kr/learn/courses/30/lessons/159994]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -43,7 +47,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'b';
-        int filenumber  = 19;
+        int filenumber  = 15;
 
         printLectucePractice(site, filenumber);
     }
