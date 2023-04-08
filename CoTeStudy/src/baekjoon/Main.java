@@ -10,7 +10,8 @@ public class Main {
             int[][] arr = new int[Integer.parseInt(st.nextToken())][Integer.parseInt(st.nextToken())];
 
         } catch (Exception e) {
-            System.out.printf("err 😭\n\t%s\n\t%s", e.getMessage(), e);
+            System.out.println("err 😭");
+            e.printStackTrace();
         }
     }
 }
