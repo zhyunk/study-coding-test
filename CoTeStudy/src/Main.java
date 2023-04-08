@@ -34,6 +34,7 @@ import java.util.ArrayList;
  16. 완주하지 못한 선수 [https://school.programmers.co.kr/learn/courses/30/lessons/42576]
  17. 전화번호 목록 [https://school.programmers.co.kr/learn/courses/30/lessons/42577]
  18. 최소직사각형 [https://school.programmers.co.kr/learn/courses/30/lessons/86491]
+ 18. 카드 뭉치 [https://school.programmers.co.kr/learn/courses/30/lessons/159994]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -42,7 +43,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'b';
-        int filenumber  = 13;
+        int filenumber  = 19;
 
         printLectucePractice(site, filenumber);
     }
