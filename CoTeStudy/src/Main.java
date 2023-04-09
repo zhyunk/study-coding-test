@@ -17,6 +17,8 @@ import java.util.ArrayList;
  14. 스타트링크 [https://www.acmicpc.net/problem/5014]
  15. 트리의 부모 찾기 복습 3 [https://www.acmicpc.net/problem/11725]
  16. 스타트링크 복습 1 [https://www.acmicpc.net/problem/5014]
+ 17. 트리의 부모 찾기 복습 4 [https://www.acmicpc.net/problem/11725]
+ 18. 스타트링크 복습 2 [https://www.acmicpc.net/problem/5014]
 
 
     site 1 : 프로그래머스
@@ -39,6 +41,7 @@ import java.util.ArrayList;
  17. 전화번호 목록 [https://school.programmers.co.kr/learn/courses/30/lessons/42577]
  18. 최소직사각형 [https://school.programmers.co.kr/learn/courses/30/lessons/86491]
  19. 카드 뭉치 [https://school.programmers.co.kr/learn/courses/30/lessons/159994]
+ 20. 크레인 인형뽑기 게임 [https://school.programmers.co.kr/learn/courses/30/lessons/64061]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -46,8 +49,8 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'b';
-        int filenumber  = 15;
+        int site        = 'p';
+        int filenumber  = 20;
 
         printLectucePractice(site, filenumber);
     }
