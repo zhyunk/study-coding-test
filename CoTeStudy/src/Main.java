@@ -19,6 +19,8 @@ import java.util.ArrayList;
  16. 스타트링크 복습 1 [https://www.acmicpc.net/problem/5014]
  17. 트리의 부모 찾기 복습 4 [https://www.acmicpc.net/problem/11725]
  18. 스타트링크 복습 2 [https://www.acmicpc.net/problem/5014]
+ 19. 행렬 덧셈 [https://www.acmicpc.net/problem/2738]
+ 20. 색종이 [https://www.acmicpc.net/problem/2563]
 
 
     site 1 : 프로그래머스
@@ -49,8 +51,8 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'p';
-        int filenumber  = 20;
+        int site        = 'b';
+        int filenumber  = 19;
 
         printLectucePractice(site, filenumber);
     }
