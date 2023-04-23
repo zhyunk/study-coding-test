@@ -44,6 +44,10 @@ import java.util.ArrayList;
  18. 최소직사각형 [https://school.programmers.co.kr/learn/courses/30/lessons/86491]
  19. 카드 뭉치 [https://school.programmers.co.kr/learn/courses/30/lessons/159994]
  20. 크레인 인형뽑기 게임 [https://school.programmers.co.kr/learn/courses/30/lessons/64061]
+ 21. 간단한 논리 연산 [https://school.programmers.co.kr/learn/courses/30/lessons/181917]
+ 22. 배열의 원소 삭제하기[https://school.programmers.co.kr/learn/courses/30/lessons/181844]
+ 23. 순서 바꾸기 [https://school.programmers.co.kr/learn/courses/30/lessons/181891]
+ 24. 문자열 반복해서 출력하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181950]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -51,8 +55,8 @@ public class Main {
         /*  site         =  b : 백준     p : 프로그래머스
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
-        int site        = 'b';
-        int filenumber  = 19;
+        int site        = 'p';
+        int filenumber  = 24;
 
         printLectucePractice(site, filenumber);
     }
