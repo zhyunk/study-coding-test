@@ -48,6 +48,7 @@ import java.util.ArrayList;
  22. 배열의 원소 삭제하기[https://school.programmers.co.kr/learn/courses/30/lessons/181844]
  23. 순서 바꾸기 [https://school.programmers.co.kr/learn/courses/30/lessons/181891]
  24. 문자열 반복해서 출력하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181950]
+ 25. 대소문자 바꿔서 출력하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181949]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -56,7 +57,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'p';
-        int filenumber  = 24;
+        int filenumber  = 25;
 
         printLectucePractice(site, filenumber);
     }
