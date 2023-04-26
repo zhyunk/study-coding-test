@@ -49,6 +49,7 @@ import java.util.ArrayList;
  23. 순서 바꾸기 [https://school.programmers.co.kr/learn/courses/30/lessons/181891]
  24. 문자열 반복해서 출력하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181950]
  25. 대소문자 바꿔서 출력하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181949]
+ 26. 이어 붙인 수 [https://school.programmers.co.kr/learn/courses/30/lessons/181928]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -57,7 +58,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'p';
-        int filenumber  = 25;
+        int filenumber  = 26;
 
         printLectucePractice(site, filenumber);
     }
