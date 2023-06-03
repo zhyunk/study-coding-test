@@ -56,6 +56,8 @@ import java.util.ArrayList;
  27. 뒤에서 5등까지 [https://school.programmers.co.kr/learn/courses/30/lessons/181853]
  28. 꼬리 문자열 [https://school.programmers.co.kr/learn/courses/30/lessons/181841]
  29. 배열의 원소만큼 추가하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181861]
+ 30. 공백으로 구분하기 2[https://school.programmers.co.kr/learn/courses/30/lessons/181868]
+ 31. 홀수 vs 짝수 [https://school.programmers.co.kr/learn/courses/30/lessons/181887]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -64,7 +66,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'p';
-        int filenumber  = 29;
+        int filenumber  = 31;
 
         printLectucePractice(site, filenumber);
     }
