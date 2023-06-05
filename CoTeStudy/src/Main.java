@@ -58,6 +58,8 @@ import java.util.ArrayList;
  29. 배열의 원소만큼 추가하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181861]
  30. 공백으로 구분하기 2[https://school.programmers.co.kr/learn/courses/30/lessons/181868]
  31. 홀수 vs 짝수 [https://school.programmers.co.kr/learn/courses/30/lessons/181887]
+ 32. 배열 비교하기 [https://school.programmers.co.kr/learn/courses/30/lessons/181856]
+ 33. l로 만들기 [https://school.programmers.co.kr/learn/courses/30/lessons/181834]
  */
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
@@ -66,7 +68,7 @@ public class Main {
          *  fileNumber   =  1 , 2 , 3 , 4 , .....           */
 
         int site        = 'p';
-        int filenumber  = 31;
+        int filenumber  = 33;
 
         printLectucePractice(site, filenumber);
     }
