@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AlgorithmStudy/AlgorithmStudy.iml" filepath="$PROJECT_DIR$/AlgorithmStudy/AlgorithmStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoTeStudy/CoTeStudy.iml" filepath="$PROJECT_DIR$/CoTeStudy/CoTeStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStructureStudy/DataStructureStudy.iml" filepath="$PROJECT_DIR$/DataStructureStudy/DataStructureStudy.iml" />
       <module fileurl="file://$PROJECT_DIR$/JavaBasicStudy/JavaBasicStudy.iml" filepath="$PROJECT_DIR$/JavaBasicStudy/JavaBasicStudy.iml" />
