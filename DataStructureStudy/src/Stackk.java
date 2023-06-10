@@ -1,13 +1,13 @@
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
-public class MyStack {
+public class Stackk {
 
     static final int STACK_SIZE = 10;
 
     public static void main(String[] args) {
 
-        Stackk<Integer> s = new Stackk<>(STACK_SIZE);
+        MyStack<Integer> s = new MyStack<>(STACK_SIZE);
 
         // stack 구경
         s.print();
@@ -39,15 +39,15 @@ public class MyStack {
     }
 
 }
-class Stackk<T> {
-    private T[] arr;
+class MyStack<T> {
+    private T[] stack;
     private int maxSize;
     private int top;
 
-    private Stackk() {}
-    public Stackk(int maxSize) {
+    private MyStack() {}
+    public MyStack(int maxSize) {
         this.maxSize = maxSize;
-        arr = (T[]) new Object[maxSize];
+        stack = (T[]) new Object[maxSize];
         topInit();
     }
 
@@ -69,7 +69,7 @@ class Stackk<T> {
             return;
         }
 
-        arr[++top] = data;
+        stack[++top] = data;
     }
 
     public T pop() {
@@ -78,14 +78,14 @@ class Stackk<T> {
             return null;
         }
 
-        T value = arr[top];
-        arr[top--] = null;
+        T value = stack[top];
+        stack[top--] = null;
 
         return value;
     }
 
     public T peek() {
-        return arr[top];
+        return stack[top];
     }
 
     public int size() {
@@ -93,7 +93,7 @@ class Stackk<T> {
     }
 
     public boolean contains(T data) {
-        for (Object t: arr)
+        for (Object t: stack)
             if (t.equals(data))
                 return true;
 
@@ -102,7 +102,7 @@ class Stackk<T> {
 
     public void clear() {
         for (int i = 0; i <= top; i++)
-            arr[i] = null;
+            stack[i] = null;
 
         topInit();
     }
@@ -113,7 +113,7 @@ class Stackk<T> {
 
     @Override
     public String toString() {
-        return "Stackk : " + Arrays.toString(arr) + "\n" +
+        return "Stackk : " + Arrays.toString(stack) + "\n" +
                 "  Size : " + size() + "\n" +
                 "   top : " + top + "\n";
     }
