@@ -21,11 +21,11 @@ public class MyStack {
 
         // 방금 추가 시도한 값 들어갔는지 확인
         System.out.println();
-        System.out.println("contains(11) : " + s.contains(11));
+        System.out.println("contains 11 : " + s.contains(11));
 
         // 값 1개 pop
         System.out.println();
-        System.out.println(s.pop());
+        System.out.println("pop : " + s.pop());
         s.print();
 
         // stack 초기화
