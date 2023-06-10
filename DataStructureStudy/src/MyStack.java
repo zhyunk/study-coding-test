@@ -40,14 +40,14 @@ public class MyStack {
 
 }
 class Stackk<T> {
-    private Object[] arr;
+    private T[] arr;
     private int maxSize;
     private int top;
 
     private Stackk() {}
     public Stackk(int maxSize) {
         this.maxSize = maxSize;
-        arr = new Object[maxSize];
+        arr = (T[]) new Object[maxSize];
         topInit();
     }
 
@@ -78,14 +78,14 @@ class Stackk<T> {
             return null;
         }
 
-        T value = (T) arr[top];
+        T value = arr[top];
         arr[top--] = null;
 
         return value;
     }
 
     public T peek() {
-        return (T) arr[top];
+        return arr[top];
     }
 
     public int size() {
